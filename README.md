@@ -1,6 +1,6 @@
 # Jeju web
 
-##WIFI
+## WIFI
 (쓰실 때만 연결해주세요 ^^)
 netis 5G
 0647277800

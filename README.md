@@ -4,7 +4,7 @@
 # http://bit.ly/2Mg1LoI
 
 ## 설치해주세요.
-# (visual studio code)[https://code.visualstudio.com/]
+<a href="https://code.visualstudio.com/">visual studio code</a>
 
 ## 커리큘럼
 https://seomal.org

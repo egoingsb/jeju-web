@@ -1,4 +1,4 @@
-# Jeju web
+# Jeju web 정보공유
 
 ## WIFI
 (쓰실 때만 연결해주세요 ^^)

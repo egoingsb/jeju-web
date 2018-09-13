@@ -22,3 +22,8 @@ http://www.jejufc.or.kr/jejumedia/course_view.sky?code=course&id=82
 http://snappy-app.com/help?utm_source=mac_app
 https://epic-pen.com/
 https://sketchbook.com/
+
+#screencast 
+https://www.telestream.net/screenflow/overview.htm
+https://www.techsmith.com/video-editor.html
+https://obsproject.com/ko

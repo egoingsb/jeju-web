@@ -4,6 +4,9 @@
     <title>WEB - WWW</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <script>
+        var bodyTag = document.querySelector('body');
+    </script>
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
@@ -15,12 +18,12 @@
         </ol>
         <div>
             <input type="button" onclick="
-                document.querySelector('body').style.backgroundColor = 'black';
-                document.querySelector('body').style.color = 'white';
+                bodyTag.style.backgroundColor = 'black';
+                bodyTag.style.color = 'white';
             " value="night">
             <input type="button" onclick="
-                document.querySelector('body').style.backgroundColor = 'white';
-                document.querySelector('body').style.color = 'black';
+                bodyTag.style.backgroundColor = 'white';
+                bodyTag.style.color = 'black';
             " value="day">
             <h2>WWW</h2>
             WWW is <strong>World</strong> Wide Web.

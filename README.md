@@ -27,3 +27,9 @@ https://sketchbook.com/
 https://www.telestream.net/screenflow/overview.htm
 https://www.techsmith.com/video-editor.html
 https://obsproject.com/ko
+
+#회원가입해주세요.
+http://github.com/
+
+#github desktop 설치해주세요.
+https://desktop.github.com/

@@ -25,6 +25,23 @@
                 bodyTag.style.backgroundColor = 'white';
                 bodyTag.style.color = 'black';
             " value="day">
+            <input type="button" onclick="
+                if(this.value === 'night') {
+                // 만약 이 버튼의 value 값이 night라면               
+                    // 야간모드가 된다.
+                    bodyTag.style.backgroundColor = 'black';
+                    bodyTag.style.color = 'white';
+                    // 이 버튼의 value 값을 day로 변경한다.
+                    this.value = 'day';
+                } else { 
+                // 그렇치 않으면 
+                    // 주간모드가 된다.
+                    bodyTag.style.backgroundColor = 'white';
+                    bodyTag.style.color = 'black';
+                    // 이 버튼의 value 값을 night로 변경한다. 
+                    this.value = 'night';
+                } 
+            " value="night">
             <h2>WWW</h2>
             WWW is <strong>World</strong> Wide Web.
         </div>

@@ -33,3 +33,26 @@ http://github.com/
 
 #github desktop 설치해주세요.
 https://desktop.github.com/
+
+```
+순서
+    제어문
+        조건문
+        반복문
+
+데이터
+    데이터 타입
+        문자열(String)
+        숫자(정수, Integer)
+        블리언(Boolean)
+        null
+    데이터의 처리
+        연산자
+            산술연산자 : +, -, *, /
+            문자열 : +,lenght,substr
+            비교연산자 : === , >, < 
+
+정리 & 정돈     
+    함수
+    객체
+```

@@ -33,6 +33,15 @@
                     bodyTag.style.color = 'white';
                     // 이 버튼의 value 값을 day로 변경한다.
                     this.value = 'day';
+
+                    var links = document.querySelectorAll('a');
+                    var i = 0;
+                    while(i < links.length){
+                        var link = links[i];
+                        link.style.color = 'white';
+                        i = i + 1;
+                    }
+
                 } else { 
                 // 그렇치 않으면 
                     // 주간모드가 된다.
@@ -40,6 +49,15 @@
                     bodyTag.style.color = 'black';
                     // 이 버튼의 value 값을 night로 변경한다. 
                     this.value = 'night';
+
+                    var links = document.querySelectorAll('a');
+                    var i = 0;
+                    while(i < links.length){
+                        var link = links[i];
+                        link.style.color = 'black';
+                        i = i + 1;
+                    }
+
                 } 
             " value="night">
             <h2>WWW</h2>

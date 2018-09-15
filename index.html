@@ -8,14 +8,11 @@
 <body>
     <script>
         var bodyTag = document.querySelector('body');
-
         function nightMode(self){
-            // 야간모드가 된다.
             bodyTag.style.backgroundColor = 'black';
             bodyTag.style.color = 'white';
             // 이 버튼의 value 값을 day로 변경한다.
             self.value = 'day';
-
             var links = document.querySelectorAll('a');
             var i = 0;
             while(i < links.length){
@@ -24,13 +21,12 @@
                 i = i + 1;
             }
         }
-
         function dayMode(self){
+            // 주간모드가 된다.
             bodyTag.style.backgroundColor = 'white';
             bodyTag.style.color = 'black';
             // 이 버튼의 value 값을 night로 변경한다. 
             self.value = 'night';
-
             var links = document.querySelectorAll('a');
             var i = 0;
             while(i < links.length){
@@ -39,7 +35,6 @@
                 i = i + 1;
             }
         }
-
     </script>
     <h1><a href="index.html">WEB</a></h1>
     <div id="container">
@@ -50,15 +45,18 @@
         </ol>
         <div>
             <input type="button" onclick="
-                nightMode(this);
+                bodyTag.style.backgroundColor = 'black';
+                bodyTag.style.color = 'white';
             " value="night">
             <input type="button" onclick="
-                dayMode(this);
+                bodyTag.style.backgroundColor = 'white';
+                bodyTag.style.color = 'black';
             " value="day">
             <input type="button" onclick="
                 if(this.value === 'night') {
                     nightMode(this);
                 } else { 
+                // 그렇치 않으면 
                     dayMode(this);
                 } 
             " value="night">
